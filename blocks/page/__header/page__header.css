@@ -5,7 +5,7 @@
 
 @media (max-width: 768px) {
     .page__header {
-        margin: 16px 16px 0 16px;
+        margin-top: 16px;
         min-height: 42px;
         max-height: 42px;
     }
