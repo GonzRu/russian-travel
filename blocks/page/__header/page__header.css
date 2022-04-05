@@ -1,0 +1,43 @@
+.page__header {
+    margin: 28px auto 0 auto;
+    min-height: 52px;
+}
+
+@media (max-width: 768px) {
+    .page__header {
+        margin: 16px 16px 0 16px;
+        min-height: 42px;
+        max-height: 42px;
+    }
+}
+
+/*
+    y = 0.8125x + 96 где
+    x - ширина экрна
+    y - max-width для блока
+ */
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .page__header {
+        width: 100%;
+        max-width: calc(81.25% + 96px);
+    }
+}
+
+/*
+    y = 0.22x + 724 где
+    x - ширина экрна
+    y - max-width для блока
+ */
+ @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .page__header {
+        width: 100%;
+        max-width: calc(22% + 724px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page__header {
+        width: 100%;
+        max-width: 984px;
+    }
+}
