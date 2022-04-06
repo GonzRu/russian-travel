@@ -49,6 +49,7 @@
 @import url(../blocks/page/__place/page__place.css);
 @import url(../blocks/page/__cover/page__cove.css);
 @import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__link/page__link.css);
 @import url(../blocks/page/_width-xs/page_width-xs_full.css);
 @import url(../blocks/page/_width-xs/page_width-xs_p16.css);
 @import url(../blocks/page/_width-s/page_width-s_full.css);
