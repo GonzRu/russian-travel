@@ -33,4 +33,7 @@
     font-family: 'Inter', serif;
     max-width: 1280px;
     margin: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
