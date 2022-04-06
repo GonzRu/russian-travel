@@ -3,8 +3,40 @@
     margin-top: 48px;
 }
 
-@media (min-width: 1280px) {
+@media screen and (max-width: 767px) {
+    .page__lead {
+        width: 100%;
+    }
+}
+/*
+    y = 0.625x + 288 где
+    x - ширина экрна
+    y - max-width для блока
+    0px -> 48px
+ */
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page__lead {
+        max-width: calc(62.5% + 288px);
+    }
+}
+
+/*
+    y = 0.2187x + 704 где
+    x - ширина экрна
+    y - max-width для блока
+    48px -> 148px
+ */
+ @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page__lead {
+        width: 100%;
+        max-width: calc(21.87% + 704px);
+    }   
+}
+
+@media screen and (min-width: 1280px) {
     .page__lead {
         margin-top: 56px;
+        width: 100%;
+        max-width: 984px;
     }
 }

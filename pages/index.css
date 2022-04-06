@@ -51,13 +51,3 @@
 @import url(../blocks/page/__cover/page__cove.css);
 @import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/page/__link/page__link.css);
-@import url(../blocks/page/_width-xs/page_width-xs_full.css);
-@import url(../blocks/page/_width-xs/page_width-xs_p16.css);
-@import url(../blocks/page/_width-s/page_width-s_full.css);
-@import url(../blocks/page/_width-s/page_width-s_p0-p48.css);
-@import url(../blocks/page/_width-s/page_width-s_p24-p48.css);
-@import url(../blocks/page/_width-m/page_width-m_p0-p48.css);
-@import url(../blocks/page/_width-m/page_width-m_p48-p148.css);
-@import url(../blocks/page/_width-m/page_width-m_p48.css);
-@import url(../blocks/page/_width-l/page_width-l_w1184.css);
-@import url(../blocks/page/_width-l/page_width-l_w984.css);

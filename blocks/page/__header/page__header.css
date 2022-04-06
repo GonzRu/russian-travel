@@ -3,10 +3,39 @@
     min-height: 52px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .page__header {
         margin-top: 16px;
         min-height: 42px;
         max-height: 42px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+/*
+    y = 0.8125x + 96 где
+    x - ширина экрна
+    y - max-width для блока
+    24px -> 48px
+ */
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page__header {
+        width: 100%;
+        max-width: calc(81.25% + 96px);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page__header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }   
+}
+
+@media screen and (min-width: 1280px) {
+    .page__header {
+        width: 100%;
+        max-width: 1184px;
     }
 }

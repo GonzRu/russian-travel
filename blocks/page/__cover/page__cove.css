@@ -1,21 +1,39 @@
 .page__cover {
     margin: auto;
     margin-top: 90px;
+    min-height: calc(62.5vw);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .page__cover {
-        min-height: calc(62.5vw);
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .page__cover {
-        min-height: calc(62.5vw);
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page_width-m_p0-p48 {
+        width: 100%;
+        max-width: calc(62.5% + 384px);
+    }   
 }
+
+/*
+    y = 0.625x + 384px где
+    x - ширина экрна
+    y - max-width для блока
+    0px -> 48px
+ */
+ @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page__cover {
+        width: 100%;
+        max-width: calc(62.5% + 384px);
+    }   
+}
+
 @media screen and (min-width: 1280px) {
     .page__cover {
-        min-height: calc(62.5vw);
+        width: 100%;
+        max-width: 1184px;
+        min-height: 740px;
     }
 }

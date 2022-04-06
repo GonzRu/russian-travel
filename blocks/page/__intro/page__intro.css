@@ -6,11 +6,35 @@
 @media screen and (max-width: 768px) {
     .page__intro {
         margin-top: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
 
  @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
         margin-top: 88px;
+        width: 100%;
+        max-width: calc(81.25% + 96px);
+    }
+}
+
+/*
+    y = 0.2187x + 704 где
+    x - ширина экрна
+    y - max-width для блока
+    48px -> 148px
+ */
+ @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        width: 100%;
+        max-width: calc(21.87% + 704px);
+    }   
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: 100%;
+        max-width: 984px;
     }
 }
