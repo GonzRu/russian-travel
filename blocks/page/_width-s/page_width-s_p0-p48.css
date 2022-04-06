@@ -1,0 +1,11 @@
+/*
+    y = 0.625x + 288 где
+    x - ширина экрна
+    y - max-width для блока
+    0px -> 48px
+ */
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page_width-s_p0-p48 {
+        max-width: calc(62.5% + 288px);
+    }
+}

@@ -10,28 +10,8 @@
     }
 }
 
-/*
-    y = 0.8125x + 96 где
-    x - ширина экрна
-    y - max-width для блока
- */
- @media screen and (min-width: 768px) and (max-width: 1024px) {
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
     .page__footer {
-        width: 100%;
-        max-width: calc(81.25% + 96px);
         margin-top: 88px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .page__footer {
-        margin-left: 48px;
-        margin-right: 48px;
-    }   
-}
-
-@media screen and (min-width: 1280px) {
-    .page__footer {
-        width: 100%;
     }
 }
