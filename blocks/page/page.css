@@ -1,7 +1,7 @@
 .page {
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     max-width: 1280px;
     margin: auto;
     -webkit-font-smoothing: antialiased;
