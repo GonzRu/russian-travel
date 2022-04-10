@@ -1,13 +1,9 @@
 .page__lead {
     margin: auto;
     margin-top: 48px;
+    width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-    .page__lead {
-        width: 100%;
-    }
-}
 /*
     y = 0.625x + 288 где
     x - ширина экрна
@@ -28,7 +24,6 @@
  */
  @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .page__lead {
-        width: 100%;
         max-width: calc(21.87% + 704px);
     }   
 }
@@ -36,7 +31,6 @@
 @media screen and (min-width: 1280px) {
     .page__lead {
         margin-top: 56px;
-        width: 100%;
         max-width: 984px;
     }
 }
